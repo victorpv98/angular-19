@@ -1,0 +1,27 @@
+.cuadro_alto{
+  height: 40vh;
+  width: 40vh;
+}
+
+.cuadro_alto p{
+  text-align: justify;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.card_pri{
+  height: 40vh;
+  width: 40vh;
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px 2px rgba(179, 129, 240, 0.2);
+}
+
+
+.cabecera{
+  background: linear-gradient(rgb(59, 231, 203), rgb(218, 119, 248));
+  height: auto;
+}
+
+.cabecera h4{
+  font-size: 0.8rem;
+}

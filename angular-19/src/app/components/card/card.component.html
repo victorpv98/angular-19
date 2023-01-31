@@ -1,0 +1,14 @@
+<section class="container">
+  <section class="row shadow bg-secondary bg-gradient">
+    <section *ngFor="let item of listadoDataArr" class="col-3">
+      <section class="card card_pri">
+        <section class="card-header cabecera">
+          <h4>{{item.name}}</h4>
+        </section>
+        <section class="card-body cuadro_alto">
+          <p class="card-text">{{item.body}}</p>
+        </section>
+      </section>
+    </section>
+  </section>
+</section>
